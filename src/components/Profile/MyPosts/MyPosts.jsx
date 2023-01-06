@@ -4,11 +4,12 @@ import Post from './Post/Post';
 
 const MyPosts = () => {
 
-    let postsData = [
+    let posts = [
         {id: 1, message: 'Jazz club', likesCount:12},
         {id: 2, message: 'Comping',likesCount:62},
         {id: 3, message: 'Learn tunes',likesCount:18}
     ]
+
 
     return (
         <div className={s.postsBlock}>
